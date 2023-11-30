@@ -7,11 +7,11 @@
 # Requisitos
 ## -Automação
 - Através do circuito em arduíno será realizada a contagem em tempo real do número de cadeiras ocupadas
-- Através do processamento em Python será realizada a 
+- Através do processamento em Python serão relacionados os dados de ocupação com seus respectivos níveis de preocupação
 ## -Precisão
-- asdfsad
+- A contagem de assentos ocupados será realizada por um sensor ultrassônico a cima de cada assento, com um tempo de espera padrão de 5 segundos de para evitar falsas mudanças de disponível para ocupado
 ## -Prevenção
-- afdasdasd
+- Através da contagem em tempo real do nível de ocupação busca-se garantir a menor quantidade de funcionários necessários para garantir um bom atendimento ao cliente, reduzindo, simultanemente, tempo de fila, estresse da espera em filas, da probabilidade de agravamentos e desistências e dos gastos com funcionários.
 
 
   
