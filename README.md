@@ -4,11 +4,15 @@
 
 # Requisitos
 - Circuito Arduíno [Link do Tinkercad](https://www.tinkercad.com/things/j8fB9hAidMW-copy-of-prototipo-fila-zero?sharecode=tAsmiBubC6UIdh47A9eoEdCNaOpWQvlZMAgWjoF1_18)
-- aasd
+- Código Fonte em C++
 - asaf
   
 # Dependências
+- asd
+
 # Instruções de uso
+- asdasd
+
 # Detalhes
   O projeto consiste na leitura automática de cadeiras ocupadas em um ambiente para emitir um alerta de preocupação baseado em seu nível de ocupação. A leitura do ambiente será realizado através de um circuito Arduíno [Link do Tinkercad](https://www.tinkercad.com/things/j8fB9hAidMW-copy-of-prototipo-fila-zero?sharecode=tAsmiBubC6UIdh47A9eoEdCNaOpWQvlZMAgWjoF1_18) e os dados coletados serão processados em Python.
     
