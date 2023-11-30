@@ -5,11 +5,11 @@
 
 
 # Requisitos
-## Automação
+## -Automação
 - Através do circuito em arduíno será realizada a contagem em tempo real do número de cadeiras ocupadas
-## Precisão
+## -Precisão
 - asdfsad
-## Prevenção
+## -Prevenção
 - afdasdasd
 
 
