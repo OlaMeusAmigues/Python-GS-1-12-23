@@ -24,6 +24,7 @@
 # Instruções de uso
 - Ao iniciar o código será perguntado ao usuário a quantidade de cadeiras do ambiente (número inteiro maior que 1)
 - Em seguida será perguntado ao usuário a quantidade de níveis de alerta (número inteiro maior que 0)
+- Depois, serão registrados cada porcentagem de alerta (inteiros maiores que 0 e menores que 100)
 
 
 
