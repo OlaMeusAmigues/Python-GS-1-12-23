@@ -11,19 +11,19 @@
 ## -Precisão
 - A contagem de assentos ocupados será realizada por um sensor ultrassônico a cima de cada assento, com um tempo de espera padrão de 5 segundos de para evitar falsas mudanças de disponível para ocupado
 ## -Prevenção
-- Através da contagem em tempo real do nível de ocupação busca-se garantir a menor quantidade de funcionários necessários para garantir um bom atendimento ao cliente, reduzindo, simultanemente, tempo de fila, estresse da espera em filas, da probabilidade de agravamentos e desistências e dos gastos com funcionários.
+- Através da contagem em tempo real do nível de ocupação busca-se garantir a menor quantidade de funcionários necessários para garantir um bom atendimento ao cliente, reduzindo, simultanemente, tempo de fila, estresse da espera em filas, probabilidade de agravamentos e desistências e gastos com funcionários.
 
 
   
 # Dependências
-- Circuito Arduíno [Link do Tinkercad](https://www.tinkercad.com/things/j8fB9hAidMW-copy-of-prototipo-fila-zero?sharecode=tAsmiBubC6UIdh47A9eoEdCNaOpWQvlZMAgWjoF1_18)
-- Código Fonte em C++
-- asaf
+- Circuito Arduíno com Código Fonte em C++ [Link do Tinkercad](https://www.tinkercad.com/things/j8fB9hAidMW-copy-of-prototipo-fila-zero?sharecode=tAsmiBubC6UIdh47A9eoEdCNaOpWQvlZMAgWjoF1_18)
+- Modo de envio dos dados do Arduíno para o Código fonte em Python
 
 
 
 # Instruções de uso
-- asdasd
+- Ao iniciar o código será perguntado ao usuário a quantidade de cadeiras do ambiente (número inteiro maior que 1)
+- Em seguida será perguntado ao usuário a quantidade de níveis de alerta (número inteiro maior que 0)
 
 
 
