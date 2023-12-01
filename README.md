@@ -3,6 +3,12 @@
 - Gustavo Gouvêa Soares         RM-553842
 
 
+# Detalhes
+  O projeto consiste na leitura automática de cadeiras ocupadas em um ambiente para emitir um alerta de preocupação baseado em seu nível de ocupação. A leitura do ambiente será realizado através de um circuito Arduíno [Link do Tinkercad](https://www.tinkercad.com/things/j8fB9hAidMW-copy-of-prototipo-fila-zero?sharecode=tAsmiBubC6UIdh47A9eoEdCNaOpWQvlZMAgWjoF1_18) e os dados coletados serão processados em Python.
+    
+  O código em Python perguntará a quantidade e os valores dos níveis de alerta, a quantidade de cadeiras e modo de preenchimento de ocupação das cadeiras (Rápido ou Completo) antes de processar os dados coletados pelo arduíno. Enquanto não há a comunicação do Arduíno com o código em Python, os dados dos estados de ocupação serão preenchidos manualmente, após preenchidos, será retornado a quantidade e porcentagem de cadeiras ocupadas do ambiente junto com um nível de alerta, caso necessário, personalizado de acordo com o modo de preenchimento escolhido.
+
+
 
 # Requisitos
 ## -Automação
@@ -31,11 +37,4 @@
 - Caso escolha Completa seja escolhida será perguntado cadeira por cadeira se ela está ocupada
 - Caso escolha Completa seja escolhida também será emitido no terminal as cadeiras livres
 - Independente da escolha será emitido a quantidade de cadeiras ocupadas, a porcentagem de ocupação e um nível de alerta, caso necessário
-- Depois de processados os dados será possível Atualizar ocupação(resetando apenas a quantidade de cadeiras ocupadas), Atualizar número de cadeiras(resetando tudo menos os níveis de preocupação), Atualizar níveis de preocupação(resetando tudo menos o número de cadeiras), Atualizar número de cadeiras e níveis de preocupação(resetando tudo), Fechar programa
-
-
-
-# Detalhes
-  O projeto consiste na leitura automática de cadeiras ocupadas em um ambiente para emitir um alerta de preocupação baseado em seu nível de ocupação. A leitura do ambiente será realizado através de um circuito Arduíno [Link do Tinkercad](https://www.tinkercad.com/things/j8fB9hAidMW-copy-of-prototipo-fila-zero?sharecode=tAsmiBubC6UIdh47A9eoEdCNaOpWQvlZMAgWjoF1_18) e os dados coletados serão processados em Python.
-    
-  O código em Python precisa dos níveis de alerta (apenas inteiros maiores que 1) definidos antes da execução, ao ser executado ele pergunta ao usuário o número de cadeiras do ambiente (apenas inteiros maiores que 1), pergunta o modo de preenchimento da quantidade de cadeiras ocupadas (rápido ou completo) e retorna o nível de ocupação do ambiente personalizado de acordo com o modo de preenchimento.
+- Depois de processados os dados será possível Atualizar ocupação(resetando apenas a quantidade de cadeiras ocupadas), Atualizar número de cadeiras(resetando tudo menos os níveis de preocupação), Atualizar níveis de preocupação(resetando tudo menos o número de cadeiras), Atualizar número de cadeiras e níveis de preocupação(resetando tudo) e Fechar programa
