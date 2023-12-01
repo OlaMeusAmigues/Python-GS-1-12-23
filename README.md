@@ -25,6 +25,11 @@
 - Ao iniciar o código será perguntado ao usuário a quantidade de cadeiras do ambiente (número inteiro maior que 1)
 - Em seguida será perguntado ao usuário a quantidade de níveis de alerta (número inteiro maior que 0)
 - Depois, serão registrados cada porcentagem de alerta (inteiros maiores que 0 e menores que 100)
+  
+- Logo após, será possível escolher o modo de preenchimento das cadeiras, sendo Rápido o mais adequado para visualizar apenas o nível de ocupação e de alerta e Completo o mais adequado para, além da função anteriror, indicar assentos disponíveis
+- A partir daqui, será simulada a interação do arduíno com Python, feita provisóriamente pelo próprio usuário
+- Caso escolha Rápida seja escolhida será apenas pedido a quantidade de lugares ocupados(inteiro maior ou igual a zero e menor que o número de cadeiras)
+- Caso escolha Completa seja 
 
 
 
